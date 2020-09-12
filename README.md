@@ -11,6 +11,7 @@ How to process the retrosheet data (I am using Windows for these instructions):
    the file and move all the .exe files to your local disk
 3. For each year of the 'regular season event files' you want to use run the command below 
   cwevent -y 2018 -f 0-96 2018*.EV* >> retro_events.csv in the terminal 
+  I got the above DOS command from https://bayesball.github.io/VB/Simple_Retrosheet.html instructions
   // so if you want just 2017, change 2018 to 2017 and etc 
 4. Move the file to /retro 
 
