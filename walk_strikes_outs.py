@@ -54,7 +54,7 @@ plt.plot(list(df.index[-2:]), list(df.wlk_pct[-2:]),
 plt.plot(list(df.index[-2:]), list(df.hr_pct[-2:]), 
               color = 'tab:green', linestyle = '--')
 plt.ylim(0)
-plt.ylabel("% of Plate Appearancs")
+plt.ylabel("% of Plate Appearances")
 plt.gcf().set_size_inches(12,5)
 plt.gca().spines['top'].set_visible(False)  
 plt.gca().spines['right'].set_visible(False)  
