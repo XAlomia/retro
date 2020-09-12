@@ -9,6 +9,7 @@ How to process the retrosheet data (I am using Windows for these instructions):
   I downloaded decades 2010-2019 and 2000-2009, download them to your local disk
 2. Download the Chadwick executables at https://github.com/chadwickbureau/chadwick/releases, using version 8.1. Unzip 
    the file and move all the .exe files to your local disk
+   And make sure the files here https://www.retrosheet.org/tools.htm BEVENT.exe, BOX.exe and BGAME.exe are in the local disk as well
 3. For each year of the 'regular season event files' you want to use run the command below 
   cwevent -y 2018 -f 0-96 2018*.EV* >> retro_events.csv in the terminal 
   I got the above DOS command from https://bayesball.github.io/VB/Simple_Retrosheet.html instructions
