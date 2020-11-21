@@ -5,7 +5,7 @@ The retrosheet data is too large to add to github repo, I have it named in these
 However, please make sure the files retro_events.csv are in your local drive. 
 
 How to process the retrosheet data (I am using Windows for these instructions): 
-1. Go to https://www.retrosheet.org/game.html and use any 'regular season event file' you want to use. 
+1. Go to https://www.retrosheet.org/game.htm and use any 'regular season event file' you want to use. 
   I downloaded decades 2010-2019 and 2000-2009, download them to your local disk
 2. Download the Chadwick executables at https://github.com/chadwickbureau/chadwick/releases, using version 8.1. Unzip 
    the file and move all the .exe files to your local disk
@@ -16,4 +16,4 @@ How to process the retrosheet data (I am using Windows for these instructions):
   // so if you want just 2017, change 2018 to 2017 and etc 
 4. Move the file to /retro 
 
-Updated 9/12/2020
+Updated 11/20/2020
